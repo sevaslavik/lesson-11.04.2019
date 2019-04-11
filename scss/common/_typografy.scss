@@ -1,0 +1,9 @@
+h1{
+    text-transform: uppercase;
+   @include page-title(54px);
+}
+
+h2{
+    font-size: 34px;
+    @include page-title(34px);
+}
