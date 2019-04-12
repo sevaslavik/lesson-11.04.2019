@@ -66,6 +66,24 @@
             margin-left: 33.5px;
         }
 
+        &--contact::before,
+        &--contact::after{
+            display: inline-block;
+            width: 218.5px;
+            height: 2px;
+            margin-bottom: 20px;
+            background-color: $color-base;
+        }
+
+        &--contact::before{
+            content: '';
+            margin-right: 20px;
+        }
+
+        &--contact::after{
+            margin-left: 20.2px;
+        }
+
         &--enother:before,
         &--enother:after{
             content: '';
@@ -122,5 +140,21 @@
     &__small-title{
         padding-top: 35px;
         padding-bottom: 35px;
+    }
+
+    &__link{
+        display: inline-block;
+        margin: 35px 0;
+        padding: 13px 116px;
+        @include page-title-mi(16px);
+        text-transform: uppercase;
+        border: 2px solid $color-base;
+        text-decoration: none;
+        color: $color-base;
+
+        &:hover{
+            color: $color-white;
+            background-color: $color-base;
+        }
     }
 }

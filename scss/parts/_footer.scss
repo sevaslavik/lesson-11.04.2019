@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+
+    &__conteiner{
+        display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    }
+
+    &__logo{
+        margin-right: 35px;
+        background-color: $color-base;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: $color-base;
+    }
+}

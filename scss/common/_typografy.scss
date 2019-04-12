@@ -11,3 +11,8 @@ h3{
     text-transform: uppercase;
     @include page-title-mi(20px);
 }
+
+span{
+    text-transform: uppercase;
+    @include page-title-mi(34px);
+}
