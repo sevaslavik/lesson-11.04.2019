@@ -6,3 +6,8 @@ h1{
 h2{
     @include page-title(34px);
 }
+
+h3{
+    text-transform: uppercase;
+    @include page-title-mi(20px);
+}

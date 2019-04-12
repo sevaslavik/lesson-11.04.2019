@@ -4,3 +4,10 @@
     font-weight: 700;
     letter-spacing: 8.64px;
 }
+
+@mixin page-title-mi($font-size) {
+    font-size: $font-size;
+    
+    font-weight: 700;
+    letter-spacing: 8.64px;
+}
