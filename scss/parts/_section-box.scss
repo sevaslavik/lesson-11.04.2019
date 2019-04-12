@@ -3,19 +3,23 @@
 .section-box {
     text-align: center;
 
+    &--servis{
+        background-image: url('#{$path-img}services.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: $color-white;
+    }
+
 
     &__conteiner {
         position: relative;
         border: 2px solid $color-base;
         border-top: none;
-    }
 
-    &__title {
-        position: absolute;
-        top: -31px;
-        left: 0;
-        display: inline-block;
-        
+        &--border-white{
+            border-color: $color-white;
+        }
     }
 
     &__title::before,
@@ -34,8 +38,34 @@
     }
 
     &__title::after{
+        content: '';
         margin-left: 40px;
     }
+
+    &__title {
+        position: absolute;
+        top: -31px;
+        left: 0;
+        display: inline-block;
+
+        &--enother:before,
+        &--enother:after{
+            content: '';
+            width: 240px;
+            height: 2px;
+            margin-bottom: 20px;
+            background-color: $color-white;
+        }
+
+        &--enother:after{
+            content: '';
+            margin-left: 60px;
+        }
+        
+    }
+
+    
+    
 
     &__deskription {
         padding-top: 75px;
@@ -50,6 +80,15 @@
             padding-bottom: 30px;
             padding-left: 225px;
             
+        }
+
+        &--normalize{
+            padding-top: 0;
+        }
+
+        &--normalize-1{
+            padding-top: 0;
+            padding-bottom: 30px;
         }
     }
 }
