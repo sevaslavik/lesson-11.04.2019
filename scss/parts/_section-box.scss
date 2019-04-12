@@ -107,7 +107,7 @@
         }
 
         &--up{
-            padding-top: 35px;
+            padding-top: 0;
             padding-bottom: 90px;
             font-size: 14px;
         }
@@ -115,7 +115,12 @@
 
     &__pen {
         display: inline-block;
-        margin-bottom: 40px;
+        
         padding-top: 120px;
+    }
+
+    &__small-title{
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 }

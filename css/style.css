@@ -149,10 +149,12 @@ img {
       padding-top: 0;
       padding-bottom: 30px; }
     .section-box__deskription--up {
-      padding-top: 35px;
+      padding-top: 0;
       padding-bottom: 90px;
       font-size: 14px; }
   .section-box__pen {
     display: inline-block;
-    margin-bottom: 40px;
     padding-top: 120px; }
+  .section-box__small-title {
+    padding-top: 35px;
+    padding-bottom: 35px; }
