@@ -7,7 +7,6 @@ h1 {
 
 h2 {
   font-size: 34px;
-  font-size: 34px;
   font-size: 54px;
   font-weight: 700;
   letter-spacing: 8.64px; }
@@ -36,6 +35,9 @@ img {
 .content-box {
   width: 580px;
   margin: 0 auto; }
+
+.section-box {
+  padding: 150px 0; }
 
 .hero {
   display: -webkit-box;
@@ -71,3 +73,38 @@ img {
     background-image: url("../img//scroll.svg");
     background-repeat: no-repeat;
     background-size: contain; }
+
+.section-box {
+  text-align: center; }
+  .section-box__conteiner {
+    position: relative;
+    border: 2px solid #3c3c3c;
+    border-top: none; }
+  .section-box__title {
+    position: absolute;
+    top: -31px;
+    left: 0;
+    display: inline-block; }
+  .section-box__title::before, .section-box__title::after {
+    content: '';
+    display: inline-block;
+    width: 240px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #3c3c3c; }
+  .section-box__title::before {
+    content: '';
+    margin-right: 40px; }
+  .section-box__title::after {
+    margin-left: 40px; }
+  .section-box__deskription {
+    padding-top: 75px;
+    padding-left: 174px;
+    padding-right: 174px;
+    line-height: 25.86px;
+    font-size: 16px; }
+    .section-box__deskription--top {
+      padding-top: 35px;
+      padding-right: 225px;
+      padding-bottom: 30px;
+      padding-left: 225px; }

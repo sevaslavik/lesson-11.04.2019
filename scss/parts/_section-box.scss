@@ -1,0 +1,55 @@
+//section-box
+
+.section-box {
+    text-align: center;
+
+
+    &__conteiner {
+        position: relative;
+        border: 2px solid $color-base;
+        border-top: none;
+    }
+
+    &__title {
+        position: absolute;
+        top: -31px;
+        left: 0;
+        display: inline-block;
+        
+    }
+
+    &__title::before,
+    &__title::after{
+        content: '';
+        display: inline-block;
+        width: 240px;
+        height: 2px;
+        margin-bottom: 20px;
+        background-color: $color-base;
+    }
+
+    &__title::before{
+        content: '';
+        margin-right: 40px;
+    }
+
+    &__title::after{
+        margin-left: 40px;
+    }
+
+    &__deskription {
+        padding-top: 75px;
+        padding-left: 174px;
+        padding-right: 174px;
+        line-height: 25.86px;
+        font-size: 16px;
+
+        &--top{
+            padding-top: 35px;
+            padding-right: 225px;
+            padding-bottom: 30px;
+            padding-left: 225px;
+            
+        }
+    }
+}

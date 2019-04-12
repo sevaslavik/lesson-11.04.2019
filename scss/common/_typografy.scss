@@ -4,6 +4,5 @@ h1{
 }
 
 h2{
-    font-size: 34px;
     @include page-title(34px);
 }
